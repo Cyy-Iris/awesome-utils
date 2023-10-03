@@ -17,6 +17,5 @@ public class IPAddressUtilTests {
         assertFalse(IPAddressUtil.isInRange("10.249.30.53", "10.249.0.0/24"));
         assertFalse(IPAddressUtil.isInRange("10.249.30.53", "10.249.0.0/32"));
     }
-    // test merge2222222
 
 }
