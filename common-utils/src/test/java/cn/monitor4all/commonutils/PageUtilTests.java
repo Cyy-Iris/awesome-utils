@@ -12,13 +12,13 @@ public class PageUtilTests {
     public void getListPage() {
         int pageSize = 10;
         List<Integer> test = new ArrayList<>();
-        for (int i = 1; i <= 100 ; i++) {
+        for (int i = 1; i <= 100; i++) {
             test.add(i);
         }
         for (int i = 1; i <= PageUtil.getListTotalPage(pageSize, test); i++) {
             System.out.println(PageUtil.getListPageContent(i, pageSize, test));
         }
     }
-
+    // test merge3
 
 }
